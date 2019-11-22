@@ -53,7 +53,7 @@ Note: Make sure you are in the correct region
 
 As you can see from first glance, SageMaker provides many features. The first page it takes you to us a dashboard that shows the user an overview and recent activity. On the left hand side you will see a menu with many different SageMaker features such as labeling, notebook, training and inference. 
 
-### Create Notebook Instance
+### 3. Create Notebook Instance
 
 1. First we want to create a notebook instance, navigate to this option on the menu 
 2. At the top right, click **Create Notebook Instance**
@@ -66,7 +66,7 @@ As you can see from first glance, SageMaker provides many features. The first pa
 There are many other optional features that you can set up such as VPC, Tags and Git Repo. For this tutorial, we will be cloning the git repo in the notebook instance terminal. 
 
 
-### Clone Project to Notebook Instance
+### 4. Clone Project to Notebook Instance
 
 
 
