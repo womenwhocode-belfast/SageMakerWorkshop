@@ -8,8 +8,7 @@ This workshop is created for Connect NYC Women Who Code Conference in New York.
 
 AI, ML Engineers and Data Scientists need to know more than a Jupyter notebook to delivering production AI services and integrate it with portal or basic web/mobile applications in a flexible and realiable way. 
 
-Inline-style: 
-![alt text](https://twitter.com/awscloud/status/996560621922549761/photo/1 "Logo Title Text 1")
+![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/MicrosoftTeams-image%20(4).png "Logo Title Text 1")
 
 
 ## Pre-Requisites
