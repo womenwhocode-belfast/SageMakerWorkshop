@@ -8,13 +8,15 @@ This workshop is created for Connect NYC Women Who Code Conference in New York.
 
 AI, ML Engineers and Data Scientists need to know more than a Jupyter notebook to delivering production AI services and integrate it with portal or basic web/mobile applications in a flexible and realiable way. 
 
+Inline-style: 
+![alt text](https://twitter.com/awscloud/status/996560621922549761/photo/1 "Logo Title Text 1")
+
 
 ## Pre-Requisites
 
 In order to complete the workshop, you'll need an AWS account and full permissions to the following AWS services:
-- AWS IAM
-- Amazon S3
-- SageMaker
+- Create an account [Link]
+Can take 24 hours for it to be activated
 
 Basic experience (not mandatory) 
 - Train/Test ML Models
@@ -72,15 +74,19 @@ There are many other optional features that you can set up such as VPC, Tags and
 ### 4. Clone Project to Notebook Instance
 
 1. On the Jupyter notebook homepage at the top right, click on **New** which will open a dropdown menu. Click **Terminal**. This will then open a Jupyter Notebook Terminal!
-2. Type **git clone https://github.com/womenwhocode-belfast/SageMakerWorkshop.git** to clone this project into jupyter notebook. 
+2. Type [CD] **git clone https://github.com/womenwhocode-belfast/SageMakerWorkshop.git** to clone this project into jupyter notebook. 
 
 There is another way to do this [..] 
 
-## 5. Build Model 
-
 For this workshop, we are using the breast cancer dataset. 
 
-1. In Jupyter Notebook, open file [..] 
+## 5. Data Cleaning
+
+To find out more about the data cleaning for this dataset, please go to [] Notebook. 
+
+In Jupyter Notebook, open file [..] 
+
+## 6. Data Training
 
 
 
