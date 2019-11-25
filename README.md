@@ -41,7 +41,7 @@ To begin using S3, sign into the management console
 4. Select Region, make sure you use the same one thoughout this workshop
 5. Click **Create**
 6. Your bucket should then appear, click it
-7. Upload repo data to this repo
+7. Download data from this repo and upload to S3 bucket
 
 You can now see that your bucket has been created. You can set many configurations and permissions for your bucket. S3 provides easy to use management features so you can organise your data and configure finely-tuned access controls to meet your specific business, organizational needs. 
 
@@ -65,8 +65,23 @@ As you can see from first glance, SageMaker provides many features. The first pa
 
 There are many other optional features that you can set up such as VPC, Tags and Git Repo. For this tutorial, we will be cloning the git repo in the notebook instance terminal. 
 
+8. Wait for the server status to change to **InService**. This may take several minutes.
+9. Click **Open Jupyter**, You will now see the Jupyter homepage for your notebook instance.
+
 
 ### 4. Clone Project to Notebook Instance
+
+1. On the Jupyter notebook homepage at the top right, click on **New** which will open a dropdown menu. Click **Terminal**. This will then open a Jupyter Notebook Terminal!
+2. Type **git clone https://github.com/womenwhocode-belfast/SageMakerWorkshop.git** to clone this project into jupyter notebook. 
+
+There is another way to do this [..] 
+
+## 5. Build Model 
+
+For this workshop, we are using the breast cancer dataset. 
+
+1. In Jupyter Notebook, open file [..] 
+
 
 
 
