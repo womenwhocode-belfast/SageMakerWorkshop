@@ -79,13 +79,29 @@ There is another way to do this [..]
 
 For this workshop, we are using the breast cancer dataset. 
 
-## 5. Data Cleaning
+## 5. Data Cleaning and Splitting
 
-To find out more about the data cleaning for this dataset, please go to [] Notebook. 
+We need to split our data into a train, valdiation set and test. 
+The training dataset is the sample of data used to fit the model. The Validation Dataset is the sample of data used to provide an unbiased evaluation of a model fit on the training dataset while tuning model hyperparameters. The Test Dataset is the sample of data used to provide an unbiased evaluation of a final model fit on the training dataset.
 
-In Jupyter Notebook, open file [..] 
+Our data then needs to be put in an S3 bucket so that our algorithm can use it!
 
-## 6. Data Training
+To find out more about how we did this, go to Jupyter Notebook, open file **[..]** 
+
+## 6. Training  
+
+Data is pre-processed for you already in this workshop and we have split it into three files: 
+1. training.csv
+2. validation.csv
+3. test.csv
+
+For the training part of this workshop, open Jupyter Notebook and open file **[]**
+
+## 7. Deploy Model
+
+After you build and train your model, the next step is to deploy the model to get predictions. Specify the number of instances, type of instance and endpoint name. Once endpoint is ready, you can run predictions on it.
+
+## 8. Run Predictions against endpoint
 
 
 
