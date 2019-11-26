@@ -50,7 +50,9 @@ You can now see that your bucket has been created. You can set many configuratio
 
 Navigate back to AWS management services and search for SageMaker, click on this and it will navigate you to the SageMaker console. 
 
-Note: Make sure you are in the correct region 
+**Note: Make sure you are in the correct region**
+
+![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/SearchSageMaker.png "Logo Title Text 1")
 
 As you can see from first glance, SageMaker provides many features. The first page it takes you to us a dashboard that shows the user an overview and recent activity. On the left hand side you will see a menu with many different SageMaker features such as labeling, notebook, training and inference. 
 
@@ -66,7 +68,13 @@ As you can see from first glance, SageMaker provides many features. The first pa
 ![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/Notebook_Name.png "Logo Title Text 1")
 
 4. For Permissions and encryption, select **create a new role** in the IAM role dropdown menu. In the pop-up modal, select Specific S3 buckets and type in the name of your bucket and a comma followed by gdelt-open-data and then click 'create role'.
+
+![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/createIAMRole.png "Logo Title Text 1")
+
 5. After this, you should be navigated back to the create notebook instance page and you should see a green box saying 'success....'
+
+
+
 6. Select **Enable**, to give users root access to the notebook. 
 7. Click **Create Notebook Instance**
 
