@@ -73,6 +73,7 @@ As you can see from first glance, SageMaker provides many features. The first pa
 
 5. After this, you should be navigated back to the create notebook instance page and you should see a green box saying 'success....'
 
+![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/success.png "Logo Title Text 1")
 
 
 6. Select **Enable**, to give users root access to the notebook. 
