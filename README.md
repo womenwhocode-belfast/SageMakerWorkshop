@@ -73,13 +73,14 @@ As you can see from first glance, SageMaker provides many features. The first pa
 
 5. After this, you should be navigated back to the create notebook instance page and you should see a green box saying 'success....'
 
-![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/success.png "Logo Title Text 1")
-
-
 6. Select **Enable**, to give users root access to the notebook. 
 7. Click **Create Notebook Instance**
 
 There are many other optional features that you can set up such as VPC, Tags and Git Repo. For this tutorial, we will be cloning the git repo in the notebook instance terminal. 
+
+After the notebook is created, you will be navigated back to the notebook instance page and you will see a green box saying 'success'
+
+![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/success.png "Logo Title Text 1")
 
 8. Wait for the server status to change to **InService**. This may take several minutes.
 9. Click **Open Jupyter**, You will now see the Jupyter homepage for your notebook instance.
