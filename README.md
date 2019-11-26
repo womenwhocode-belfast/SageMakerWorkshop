@@ -8,7 +8,7 @@ This workshop is created for Connect NYC Women Who Code Conference in New York.
 
 AI, ML Engineers and Data Scientists need to know more than a Jupyter notebook to delivering production AI services and integrate it with portal or basic web/mobile applications in a flexible and realiable way. 
 
-![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/MicrosoftTeams-image%20(4).png "Logo Title Text 1")
+![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/Amazon_SageMakerr.png "Logo Title Text 1")
 
 
 ## Pre-Requisites
@@ -38,6 +38,7 @@ To begin using S3, sign into the management console
 
 1. Find the [S3](https://aws.amazon.com/s3/) Service from the management console
 2. Click on **+Create Bucket** 
+![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/CreateNotebook.png "Logo Title Text 1")
 3. Provide a name for your bucket (This must be a globally unique name)
 4. Select Region, make sure you use the same one thoughout this workshop
 5. Click **Create**
@@ -58,6 +59,7 @@ As you can see from first glance, SageMaker provides many features. The first pa
 
 1. First we want to create a notebook instance, navigate to this option on the menu 
 2. At the top right, click **Create Notebook Instance**
+
 3. Provide the instane name and type. E.g. wwcode-smworkshop and select ml.t2.medium [instance](https://aws.amazon.com/sagemaker/pricing/instance-types/)
 4. For Permissions and encryption, select **create a new role** in the IAM role dropdown menu. In the pop-up modal, select Specific S3 buckets and type in the name of your bucket and a comma followed by gdelt-open-data and then click 'create role'.
 5. After this, you should be navigated back to the create notebook instance page and you should see a green box saying 'success....'
