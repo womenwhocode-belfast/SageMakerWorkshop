@@ -4,13 +4,16 @@
 
 This workshop is created for Connect NYC Women Who Code Conference in New York. 
 
+![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/ChloeWWCode.jpeg "Logo Title Text 1")
+![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/SapphireWWcode.png "Logo Title Text 1")
+
 Getting started in AI is so much fun - but what if you want to take your idea further? What if you want to release your project to the world to use?
 
 In this session we are going to show you how to take the machine learning model from your laptop into a production environment - so that it could be used by millions of users all over the world with AWS SageMaker.
 
 With AI now integrated into the solutions we create, it has presented us with many issues when it comes to deployment, mostly due to the size of the models generated - so other traditional deployment methods don’t work. Throughout this workshop we will be creating a model and putting it on SageMaker to train with more data, we will then move onto deploying the model to be public facing and demonstrate how a user could consume the API to receive predictions.
 
-The agenda of this workship is as follows:
+We will be taking you through the following steps: 
 1. Creating S3 bucket
 2. SageMaker Service
 3. Create Notebook Instance
@@ -30,8 +33,6 @@ AI, ML Engineers and Data Scientists need to know more than a Jupyter notebook t
 
 ## Pre-Requisites
 
-In order to complete the workshop, you'll need an AWS account and full permissions to S3 and SageMaker. 
-
 Basic experience (not mandatory) 
 - Train/Test ML Models
 - Python (scikit-learn)
@@ -41,7 +42,6 @@ Can take 24 hours for it to be activated
 In order to complete this workshop you'll need an AWS Account with access to SageMaker and S3. There are resources required by this workshop that are eligible for the AWS free tier if your account is less than 12 months old. 
 Check out the the [AWS Free Tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc) page for more details.
 
-AWS Credits will be provided on the day. 
 
 ## AWS Region
 
@@ -62,7 +62,7 @@ To begin using S3, sign into the management console
 5. Click **Create**
 6. Your bucket should then appear
 
-You can now see that your bucket has been created. You can set many configurations and permissions for your bucket. S3 provides easy to use management features so you can organise your data and configure finely-tuned access controls to meet your specific business, organizational needs. 
+You can now see that your bucket has been created. You can set many configurations and permissions for your bucket. S3 provides easy to use management features so you can organise your data and configure finely-tuned access controls to meet your specific business, organizational needs. A great feature that S3 provides is that you can configure settings that will make your bucket completely private to the world - this is useful when you are storing private sensitive data. 
 
 ## 2. SageMaker 
 
@@ -81,7 +81,7 @@ As you can see from first glance, SageMaker provides many features. The first pa
 
 ![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/CreateNotebook.png "Logo Title Text 1")
 
-3. Provide the instane name and type. E.g. wwcode-smworkshop and select ml.t2.medium [instance](https://aws.amazon.com/sagemaker/pricing/instance-types/)
+3. Provide the instane name and type. E.g. wwcode-smworkshop and select ml.t2.medium [instance](https://aws.amazon.com/sagemaker/pricing/instance-types/) This instance type is eligible for free tier. 
 
 ![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/Notebook_Name.png "Logo Title Text 1")
 
@@ -107,11 +107,9 @@ After the notebook is created, you will be navigated back to the notebook instan
 ### 4. Clone Project to Notebook Instance
 
 1. On the Jupyter notebook homepage at the top right, click on **New** which will open a dropdown menu. Click **Terminal**. This will then open a Jupyter Notebook Terminal!
-2. Type [CD] **git clone https://github.com/womenwhocode-belfast/SageMakerWorkshop.git** to clone this project into jupyter notebook. 
+2. Type [CD] **git clone https://github.com/womenwhocode-belfast/SageMakerWorkshop.git** to clone this project into jupyter notebook.
 
-There is another way to do this [..] 
-
-For this workshop, we are using the breast cancer dataset. 
+For this workshop, we are using the wine quality dataset.
 
 ## 5. Data Cleaning and Splitting
 
