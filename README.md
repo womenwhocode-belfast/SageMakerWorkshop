@@ -4,22 +4,39 @@
 
 This workshop is created for Connect NYC Women Who Code Conference in New York. 
 
+Getting started in AI is so much fun - but what if you want to take your idea further? What if you want to release your project to the world to use?
+
+In this session we are going to show you how to take the machine learning model from your laptop into a production environment - so that it could be used by millions of users all over the world with AWS SageMaker.
+
+With AI now integrated into the solutions we create, it has presented us with many issues when it comes to deployment, mostly due to the size of the models generated - so other traditional deployment methods don’t work. Throughout this workshop we will be creating a model and putting it on SageMaker to train with more data, we will then move onto deploying the model to be public facing and demonstrate how a user could consume the API to receive predictions.
+
+The agenda of this workship is as follows:
+1. Creating S3 bucket
+2. SageMaker Service
+3. Create Notebook Instance
+4. Clone Project to Notebook Instance
+5. Data Cleaning and Splitting 
+
 ### SageMaker 
 
-AI, ML Engineers and Data Scientists need to know more than a Jupyter notebook to delivering production AI services and integrate it with portal or basic web/mobile applications in a flexible and realiable way. 
+AI, ML Engineers and Data Scientists need to know more than a Jupyter notebook to delivering production AI services and integrate it with portal or basic web/mobile applications in a flexible and realiable way. SageMaker is a fully managed  cloud based machine learning service. You can:
+
+- **Build** - SageMaker has managed jupyter Notebook  environment and comes with an extensive collection of popular ML algorithms that are optimized for AWS cloud 
+- **Train** - It is a managed training infrastructure. Training on SageMaker is scable and it can distruibte training across one or many instances 
+- **Deploy** - Scalable hosting infrastructure. Users can do real time predictions or batch transformations
 
 ![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/Amazon_SageMakerr.png "Logo Title Text 1")
 
 
 ## Pre-Requisites
 
-In order to complete the workshop, you'll need an AWS account and full permissions to the following AWS services:
-- Create an account [Link]
-Can take 24 hours for it to be activated
+In order to complete the workshop, you'll need an AWS account and full permissions to S3 and SageMaker. 
 
 Basic experience (not mandatory) 
 - Train/Test ML Models
 - Python (scikit-learn)
+- Create an account [Link]
+Can take 24 hours for it to be activated
 
 In order to complete this workshop you'll need an AWS Account with access to SageMaker and S3. There are resources required by this workshop that are eligible for the AWS free tier if your account is less than 12 months old. 
 Check out the the [AWS Free Tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc) page for more details.
@@ -28,7 +45,9 @@ AWS Credits will be provided on the day.
 
 ## AWS Region
 
-Once you pick which region to use, make sure you use the same region for all servies. Not all regions work with SageMaker so we recommend using [].
+Once you pick which region to use, make sure you use the same region for all servies. Not all regions work with SageMaker so for this workshop and location of this workshop during the time of this workshop, we recommend using **US East (Ohio) Region.** 
+
+For more information about regions, please [click here](https://docs.aws.amazon.com/sagemaker/latest/dg/instance-types-az.html) 
 
 ## 1. Create S3 bucket
 
@@ -41,8 +60,7 @@ To begin using S3, sign into the management console
 3. Provide a name for your bucket (This must be a globally unique name)
 4. Select Region, make sure you use the same one thoughout this workshop
 5. Click **Create**
-6. Your bucket should then appear, click it
-7. Download data from this repo and upload to S3 bucket
+6. Your bucket should then appear
 
 You can now see that your bucket has been created. You can set many configurations and permissions for your bucket. S3 provides easy to use management features so you can organise your data and configure finely-tuned access controls to meet your specific business, organizational needs. 
 
