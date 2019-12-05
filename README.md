@@ -7,18 +7,23 @@ This workshop is created for Connect NYC Women Who Code Conference in New York.
 ![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/ChloeWWCode.jpeg "Logo Title Text 1")
 ![alt text](https://github.com/womenwhocode-belfast/SageMakerWorkshop/blob/master/Images/SapphireWWcode.png "Logo Title Text 1")
 
-Getting started in AI is so much fun - but what if you want to take your idea further? What if you want to release your project to the world to use?
+Getting started in AI is so much fun - but what if you want to take your idea further? What if you want to release your project for the world to use?
 
-In this session we are going to show you how to take the machine learning model from your laptop into a production environment - so that it could be used by millions of users all over the world with AWS SageMaker.
+In this session we are going to show you how to take the machine learning model from your laptop into a production environment - so that it could be used by millions of users all over the world with AWS SageMaker. 
 
-With AI now integrated into the solutions we create, it has presented us with many issues when it comes to deployment, mostly due to the size of the models generated - so other traditional deployment methods don’t work. Throughout this workshop we will be creating a model and putting it on SageMaker to train with more data, we will then move onto deploying the model to be public facing and demonstrate how a user could consume the API to receive predictions.
+The data that we will be working with in this notebook is a dataset on wine quality rating them from 0-9 based on a range of different attributes, which can be seen below:
 
-We will be taking you through the following steps: 
-1. Creating S3 bucket
-2. SageMaker Service
-3. Create Notebook Instance
-4. Clone Project to Notebook Instance
-5. Data Cleaning and Splitting 
+<img src="image.png" width="80%">
+
+In this notebook, we will be going through the following steps:
+
+1. Upload Data to S3
+2. Build Model
+3. Specify Data Locations
+4. Train Model
+5. Deploy Model
+6. Run Predictions
+7. Creating a predictor 
 
 ### SageMaker 
 
@@ -113,28 +118,16 @@ For this workshop, we are using the wine quality dataset.
 
 ## 5. Data Cleaning and Splitting
 
-We need to split our data into a train, valdiation set and test. 
+We need to split our data into a train, valdiation and test set. 
 The training dataset is the sample of data used to fit the model. The Validation Dataset is the sample of data used to provide an unbiased evaluation of a model fit on the training dataset while tuning model hyperparameters. The Test Dataset is the sample of data used to provide an unbiased evaluation of a final model fit on the training dataset.
 
 Our data then needs to be put in an S3 bucket so that our algorithm can use it!
 
-To find out more about how we did this, go to Jupyter Notebook, open file **[..]** 
+To find out more about how we split up the data, go to Jupyter Notebook, open file **WWCodeWorkshop_Cleaning.ipynb** 
 
-## 6. Training  
+## 6. Training, deploying and runing predictions
 
-Data is pre-processed for you already in this workshop and we have split it into three files: 
-1. training.csv
-2. validation.csv
-3. test.csv
-
-For the training part of this workshop, open Jupyter Notebook and open file **[]**
-
-## 7. Deploy Model
-
-After you build and train your model, the next step is to deploy the model to get predictions. Specify the number of instances, type of instance and endpoint name. Once endpoint is ready, you can run predictions on it.
-
-## 8. Run Predictions against endpoint
-
+Now that you have the S3 bucket step-up and have created a SageMaker Notebook instance that has all of the code files downloaded, go ahead and open the **WWCode_Workshop.ipynb** which contains a step by step guide along with the code to train a model, deploy it and run real time predictions on it!
 
 
 
