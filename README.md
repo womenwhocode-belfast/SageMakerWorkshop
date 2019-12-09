@@ -27,7 +27,7 @@ In this notebook, we will be going through the following steps:
 
 ### SageMaker 
 
-AI, ML Engineers and Data Scientists need to know more than a Jupyter notebook to delivering production AI services and integrate it with portal or basic web/mobile applications in a flexible and realiable way. SageMaker is a fully managed  cloud based machine learning service. You can:
+AI, ML Engineers and Data Scientists need to know more than a Jupyter notebook. They need to know how to to deliver production AI services and integrate it with portal or basic web/mobile applications in a flexible and reliable way. SageMaker is a fully managed cloud based machine learning service. You can:
 
 - **Build** - SageMaker has managed jupyter Notebook  environment and comes with an extensive collection of popular ML algorithms that are optimized for AWS cloud 
 - **Train** - It is a managed training infrastructure. Training on SageMaker is scable and it can distruibte training across one or many instances 
@@ -129,6 +129,12 @@ To find out more about how we split up the data, go to Jupyter Notebook, open fi
 
 Now that you have the S3 bucket step-up and have created a SageMaker Notebook instance that has all of the code files downloaded, go ahead and open the **WWCode_Workshop.ipynb** which contains a step by step guide along with the code to train a model, deploy it and run real time predictions on it!
 
+
+
+## 7. Recommended readings
+
+SageMaker Course: 
+- https://www.udemy.com/course/aws-machine-learning-a-complete-guide-with-python/
 
 
 
