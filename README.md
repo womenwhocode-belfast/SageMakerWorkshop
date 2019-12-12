@@ -112,7 +112,8 @@ After the notebook is created, you will be navigated back to the notebook instan
 ### 4. Clone Project to Notebook Instance
 
 1. On the Jupyter notebook homepage at the top right, click on **New** which will open a dropdown menu. Click **Terminal**. This will then open a Jupyter Notebook Terminal!
-2. Type [CD] **git clone https://github.com/womenwhocode-belfast/SageMakerWorkshop.git** to clone this project into jupyter notebook.
+2. Type **cd sagemaker**
+3. Then **git clone https://github.com/womenwhocode-belfast/SageMakerWorkshop.git** to clone this project into jupyter notebook.
 
 For this workshop, we are using the wine quality dataset.
 
