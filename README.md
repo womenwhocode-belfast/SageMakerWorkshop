@@ -130,6 +130,7 @@ To find out more about how we split up the data, go to Jupyter Notebook, open fi
 
 Now that you have the S3 bucket step-up and have created a SageMaker Notebook instance that has all of the code files downloaded, go ahead and open the **WWCode_Workshop.ipynb** which contains a step by step guide along with the code to train a model, deploy it and run real time predictions on it!
 
+#*Note: Once you finish this tutorial, Please ensure you stop running your endpoints as this may rank up a cost. 
 
 
 ## 7. Recommended readings
